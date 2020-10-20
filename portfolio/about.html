@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="apple-touch-icon" href="">
+	<link rel="shortcut icon" href="" type="image/x-icon">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<!-- Awesome glyphicons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Bootstrap glyphicons -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|La+Belle+Aurore|Open+Sans|Raleway|Roboto|Shadows+Into+Light" rel="stylesheet">
+	<!-- Link to your CSS file -->
+	<link rel="stylesheet" href="../SASS_Folder/css/style.css">
+	<!-- Live Reload Browser -->
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+<script>
+	var myVar;
+
+	function myFunction() {
+	    myVar = setTimeout(showPage, 1000);
+	}
+
+	function showPage() {
+	  document.getElementById("loader").style.display = "none";
+	  document.getElementById("myDiv").style.display = "flex";
+	}
+</script>
+</head>
+<body onload="myFunction()">
+	<aside>
+		<div class="logo">
+			<h4><a href="home.html">J</a></h4>
+			<p>Jack</p>
+		</div>
+		<nav>
+			<ul>
+				<li>
+					<div class="container">
+						<span class="image glyphicon glyphicon-home"></span>
+						<div class="overlay">
+							<a href="home.html" class="text">home</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="container">
+						<span class="image glyphicon glyphicon-user"></span>
+						<div class="overlay">
+							<a href="about.html" class="text">about</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="container">
+						<span class="image glyphicon glyphicon-cog"></span>
+						<div class="overlay">
+							<a href="skills.html" class="text">skills</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="container">
+						<span class="image fa fa-eye"></span>
+						<div class="overlay">
+							<a href="mywork.html" class="text">my work</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="container">
+						<span class="image glyphicon glyphicon-envelope"></span>
+						<div class="overlay">
+							<a href="contact.html" class="text">contact</a>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</nav>
+		<footer>
+			<ul>
+				<li><a href="#"><span class="fa fa-twitter"></span></a></li>
+				<li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+				<li><a href="#"><span class="fa fa-facebook"></span></a></li>
+				<li><a href="#"><span class="fa fa-rss"></span></a></li>
+			</ul>
+		</footer>
+	</aside>
+	<main>
+		<div id="loader">
+			<span>{</span><span>}</span>
+		</div>
+		<div id="myDiv" class="animate-bottom">
+			<div class="main-side-left">
+				<br>
+				<span class="htmltag">&nbsp;&nbsp;&nbsp;&lt;body&gt;</span>
+				<br>
+				<span class="htmltag">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;</span>
+				<h1>About me</h1>
+				<span class="htmltag">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1/&gt;</span>
+				<br>
+				<br>
+				<h3>Hi, my name is Denis Samardjiev. I am the project leader.</h3>
+				<p>No, thank ye, Bunger, said the English Captain, "he's welcome to the arm he has, since I can't help it, and didn't know him then; but not to another one. No more White Whales for me; I've lowered for him once.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla molestiae adipisci facere repellendus, culpa esse nesciunt ratione minus at fugit deserunt saepe reiciendis perferendis, voluptate est iste, vitae repellat, animi.</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda atque asperiores praesentium cum dicta laborum nostrum ut consequatur vitae architecto debitis.</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, quaerat. Corporis maxime quis soluta, aut itaque consequatur quos dolores exercitationem officia.</p>
+				<br>
+				<br>
+				<span class="htmltag">&nbsp;&nbsp;&nbsp;&lt;body/&gt;</span>
+				<br>
+				<span class="htmltag">&lt;html/&gt;</span>
+			</div>
+			<div class="main-side-right">
+				<img alt="" src="./images/team-member-1.jpg">
+				<div class="profile-box">
+					<ul class="list-unstyled">
+						<li><strong>Name:</strong> Denis Samardjiev</li>
+						<li><strong>Nationality:</strong> Bulgaria</li>
+						<li><strong>Position:</strong> Top Dog</li>
+						<li><strong>Phone:</strong> (000) 1234 5678</li>
+						<li><strong>Email:</strong> yourmail@iamx.com</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</main>
+	
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
+</html>
